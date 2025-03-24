@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backstage
-          image: backstage-linux-explore:1.1.0
+          image: backstage-linux-explore:1.2.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
